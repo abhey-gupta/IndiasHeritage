@@ -8,7 +8,7 @@ middlewareObj.checkCampgroundOwnership = function(req, res, next) {
  if(req.isAuthenticated()){
         Campground.findById(req.params.id, function(err, foundCampground){
            if(err){
-            req.flash("error", "Campground not found");
+            req.flash("error", "Place not found");
                res.redirect("back");
            }  else {
                // does user own the campground?
@@ -52,7 +52,7 @@ middlewareObj.isLoggedIn = function(req, res, next){
         return next();
     }
     // Adding flash messages
-    req.flash("error", "Please login to create New Campground!");
+    req.flash("error", "Please login to add new Place!");
     res.redirect("/login");
 }
 
