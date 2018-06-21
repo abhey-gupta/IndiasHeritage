@@ -1,4 +1,4 @@
-#YelpCamp
+#YelpCamp (Same used for India's Heritage)
 
 ##Initial Setup
 * Add Landing Page
