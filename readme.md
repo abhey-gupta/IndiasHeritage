@@ -1,4 +1,5 @@
 #YelpCamp (Same used for India's Heritage)
+Let us look at how to setup and use this amazing project!
 
 ##Initial Setup
 * Add Landing Page
